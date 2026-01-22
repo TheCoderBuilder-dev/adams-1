@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adams Arcade — Since 1952</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-year">1952</div>
+            <div class="loader-line"></div>
+            <div class="loader-year">2025</div>
+        </div>
+        <div class="loader-text">73 Years of Heritage</div>
+    </div>
+
+    <!-- Side Navigation -->
+    <nav class="side-nav">
+        <div class="nav-index">
+            <span class="current">01</span>
+            <span class="total">/05</span>
+        </div>
+        <div class="nav-dots">
+            <a href="#opening" class="dot active" data-section="1"></a>
+            <a href="#story" class="dot" data-section="2"></a>
+            <a href="#explore" class="dot" data-section="3"></a>
+            <a href="#community" class="dot" data-section="4"></a>
+            <a href="#find-us" class="dot" data-section="5"></a>
+        </div>
+        <div class="nav-label">Scroll</div>
+    </nav>
+
+    <!-- Top Bar -->
+    <header class="top-bar">
+        <div class="logo">
+            <span class="logo-aa">AA</span>
+            <span class="logo-full">Adams Arcade</span>
+        </div>
+        <div class="top-right">
+            <a href="https://maps.app.goo.gl/D5SoWRBBtHijofwPA" target="_blank" class="location-link">
+                <span>Ngong Rd, Nairobi</span>
+                <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+            <button class="menu-btn">
+                <span>Menu</span>
+                <div class="menu-icon">
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+    </header>
+
+    <!-- Full Menu Overlay -->
+    <div class="menu-overlay">
+        <div class="menu-content">
+            <div class="menu-left">
+                <nav class="menu-nav">
+                    <a href="#opening" class="menu-link" data-index="01">Home</a>
+                    <a href="#story" class="menu-link" data-index="02">Our Story</a>
+                    <a href="#explore" class="menu-link" data-index="03">Directory</a>
+                    <a href="#community" class="menu-link" data-index="04">Community</a>
+                    <a href="#find-us" class="menu-link" data-index="05">Visit Us</a>
+                </nav>
+            </div>
+            <div class="menu-right">
+                <div class="menu-info">
+                    <h4>Contact</h4>
+                    <p><a href="mailto:info@adamsarcade.co.ke">info@adamsarcade.co.ke</a></p>
+                    <p><a href="mailto:samira.aman@adamsarcade.co.ke">samira.aman@adamsarcade.co.ke</a></p>
+                </div>
+                <div class="menu-info">
+                    <h4>Location</h4>
+                    <p>Adams Arcade<br>Ngong Road<br>Nairobi, Kenya</p>
+                </div>
+                <div class="menu-info">
+                    <h4>Hours</h4>
+                    <p>Mon—Sat: 8am — 8pm<br>Sunday: 9am — 6pm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 1: Opening -->
+    <section class="section opening" id="opening">
+        <div class="opening-bg">
+            <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1555636222-cae831e670b3?w=1920&q=80">
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-people-walking-in-a-shopping-mall-4634-large.mp4" type="video/mp4">
+            </video>
+            <div class="opening-overlay"></div>
+        </div>
+        
+        <div class="opening-content">
+            <div class="opening-top">
+                <span class="tag">Kenya's First Shopping Centre</span>
+            </div>
+            
+            <div class="opening-center">
+                <h1 class="mega-title">
+                    <span class="line"><span class="word">ADAMS</span></span>
+                    <span class="line"><span class="word">ARCADE</span></span>
+                </h1>
+                <div class="title-accent">
+                    <span class="year-badge">EST. 1952</span>
+                    <p class="tagline">Your stop for more than just shopping</p>
+                </div>
+            </div>
+            
+            <div class="opening-bottom">
+                <div class="stat-row">
+                    <div class="stat">
+                        <span class="stat-num">73</span>
+                        <span class="stat-label">Years</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">40+</span>
+                        <span class="stat-label">Businesses</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">1st</span>
+                        <span class="stat-label">In East Africa</span>
+                    </div>
+                </div>
+                <a href="#story" class="scroll-cue">
+                    <span>Discover Our Story</span>
+                    <div class="scroll-arrow"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Story - Split Screen -->
+    <section class="section story" id="story">
+        <div class="story-split">
+            <div class="story-left">
+                <div class="story-images">
+                    <div class="story-img img-1">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80" alt="Heritage architecture">
+                    </div>
+                    <div class="story-img img-2">
+                        <img src="https://images.unsplash.com/photo-1582037928769-181f2644ecb7?w=800&q=80" alt="Historic building">
+                    </div>
+                    <div class="year-float">
+                        <span>Since</span>
+                        <strong>'52</strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="story-right">
+                <div class="story-content">
+                    <span class="section-num">02</span>
+                    <h2 class="section-headline">
+                        A Vision That<br>
+                        <em>Built History</em>
+                    </h2>
+                    
+                    <div class="story-text">
+                        <p class="lead">It began with a sketch on paper and a dream that defied colonial expectations.</p>
+                        <p>Abdul Habib Adam envisioned what would become East and Central Africa's first shopping centre. Against all odds, he purchased land, drew the designs himself, and brought in an architect from South Africa to make it official.</p>
+                    </div>
+                    
+                    <div class="timeline-mini">
+                        <div class="tl-item">
+                            <span class="tl-year">1954</span>
+                            <span class="tl-text">Total Petrol Station — first structure</span>
+                        </div>
+                        <div class="tl-item">
+                            <span class="tl-year">1959</span>
+                            <span class="tl-text">Grand opening — 9 shops, 9 flats</span>
+                        </div>
+                        <div class="tl-item">
+                            <span class="tl-year">1964</span>
+                            <span class="tl-text">Metropole Cinema opens</span>
+                        </div>
+                        <div class="tl-item active">
+                            <span class="tl-year">Today</span>
+                            <span class="tl-text">73 years strong, 40+ businesses</span>
+                        </div>
+                    </div>
+                    
+                    <div class="heritage-badge">
+                        <div class="badge-icon"><i class="fas fa-landmark"></i></div>
+                        <div class="badge-text">
+                            <strong>Post Office</strong>
+                            <span>Original tenant since 1959</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Explore - Horizontal Scroll Directory -->
+    <section class="section explore" id="explore">
+        <div class="explore-header">
+            <span class="section-num">03</span>
+            <h2 class="section-headline">Explore the Arcade</h2>
+            <p class="section-sub">40+ businesses across dining, retail, services & more</p>
+        </div>
+        
+        <div class="category-tabs">
+            <button class="cat-tab active" data-cat="eat">
+                <span class="cat-icon">🍽️</span>
+                <span class="cat-name">Eat & Drink</span>
+                <span class="cat-count">9</span>
+            </button>
+            <button class="cat-tab" data-cat="shop">
+                <span class="cat-icon">🛍️</span>
+                <span class="cat-name">Shop</span>
+                <span class="cat-count">28</span>
+            </button>
+            <button class="cat-tab" data-cat="office">
+                <span class="cat-icon">💼</span>
+                <span class="cat-name">Offices</span>
+                <span class="cat-count">4</span>
+            </button>
+        </div>
+        
+        <!-- Horizontal Scroll Container -->
+        <div class="hscroll-wrapper">
+            <div class="hscroll-track" id="eat">
+                <div class="hscroll-card featured">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80" alt="Java House">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Coffee House</span>
+                        <h3>Nairobi Java House</h3>
+                        <p>Premium coffee & contemporary dining</p>
+                    </div>
+                </div>
+                <div class="hscroll-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80" alt="Golis">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Somali Cuisine</span>
+                        <h3>Golis Restaurant</h3>
+                        <p>Authentic Somali dishes</p>
+                    </div>
+                </div>
+                <div class="hscroll-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Mudi's Cakes">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Bakery</span>
+                        <h3>Mudi's Cakes</h3>
+                        <p>Cakes, pastries & ice cream</p>
+                    </div>
+                </div>
+                <div class="hscroll-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Snack Attack">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Fast Food</span>
+                        <h3>Snack Attack</h3>
+                        <p>Pizzeria & quick bites</p>
+                    </div>
+                </div>
+                <div class="hscroll-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80" alt="MC Frys">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Fast Food</span>
+                        <h3>MC Frys</h3>
+                        <p>Crispy favorites</p>
+                    </div>
+                </div>
+                <div class="hscroll-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Food Dispensary">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Local</span>
+                        <h3>The Food Dispensary</h3>
+                        <p>Swahili snacks & dishes</p>
+                    </div>
+                </div>
+                <div class="hscroll-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80" alt="Zaad">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Bakery</span>
+                        <h3>Zaad Bakery</h3>
+                        <p>Egyptian breads & pastries</p>
+                    </div>
+                </div>
+                <div class="hscroll-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&q=80" alt="Whitestar">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Multi-Cuisine</span>
+                        <h3>The Whitestar</h3>
+                        <p>Somali, Arabian & Ethiopian</p>
+                    </div>
+                </div>
+                <div class="hscroll-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=600&q=80" alt="Pema">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Fresh</span>
+                        <h3>Pema Farm Fresh</h3>
+                        <p>Green grocer</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hscroll-track hidden" id="shop">
+                <!-- Row 1 -->
+                <div class="shop-grid">
+                    <div class="shop-item highlight">
+                        <i class="fas fa-gas-pump"></i>
+                        <h4>Total Petrol Station</h4>
+                        <span>Fuel & Service</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-tv"></i>
+                        <h4>Beko</h4>
+                        <span>Appliances</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-couch"></i>
+                        <h4>Anko Retail</h4>
+                        <span>Homeware</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-female"></i>
+                        <h4>Dukes Divas</h4>
+                        <span>Ladies Fashion</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Kenya Lampshades</h4>
+                        <span>Lighting</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-glasses"></i>
+                        <h4>Sharp Vision</h4>
+                        <span>Optician</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-store"></i>
+                        <h4>Bakaal</h4>
+                        <span>Turkish Store</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Intelli Eye Phone</h4>
+                        <span>Phones & Cyber</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-tshirt"></i>
+                        <h4>Nalani Women Africa</h4>
+                        <span>Women's Apparel</span>
+                    </div>
+                    <div class="shop-item heritage">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Posta</h4>
+                        <span>Since 1959 ★</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-child"></i>
+                        <h4>The Kids Bedroom</h4>
+                        <span>Kids Fashion</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-tooth"></i>
+                        <h4>Dental Clinic</h4>
+                        <span>Dr. Azim</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-plane"></i>
+                        <h4>Experia</h4>
+                        <span>Travel</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-globe"></i>
+                        <h4>Charu Lata</h4>
+                        <span>Travel</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-book"></i>
+                        <h4>Bookert101</h4>
+                        <span>Books</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-dumbbell"></i>
+                        <h4>The Colloseum</h4>
+                        <span>Gym & Fitness</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-cut"></i>
+                        <h4>Good Day Ever</h4>
+                        <span>Apparel & Tailoring</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-vest"></i>
+                        <h4>Colourtalk</h4>
+                        <span>Uniforms</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-car"></i>
+                        <h4>The Spare Crew</h4>
+                        <span>Auto Parts</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-gem"></i>
+                        <h4>Ask Idris</h4>
+                        <span>Antiques</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-heart"></i>
+                        <h4>Love Shack</h4>
+                        <span>Charity Shop</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-scissors"></i>
+                        <h4>The Barber Shop</h4>
+                        <span>Grooming</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-exchange-alt"></i>
+                        <h4>Arcade Forex</h4>
+                        <span>Currency Exchange</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-camera"></i>
+                        <h4>Studio Mona</h4>
+                        <span>Photography</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-blender"></i>
+                        <h4>Jambo UK</h4>
+                        <span>Ex-UK Appliances</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-user-tie"></i>
+                        <h4>SAO Sartorial</h4>
+                        <span>Gents Tailoring</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-mobile"></i>
+                        <h4>M-Pesa Shop</h4>
+                        <span>Mobile Money</span>
+                    </div>
+                    <div class="shop-item">
+                        <i class="fas fa-tint"></i>
+                        <h4>White Rose</h4>
+                        <span>Dry Cleaning</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hscroll-track hidden" id="office">
+                <div class="office-showcase">
+                    <div class="office-card">
+                        <div class="office-num">01</div>
+                        <h3>Namati</h3>
+                        <p>Legal Innovation & Grassroots Justice</p>
+                        <div class="office-icon"><i class="fas fa-balance-scale"></i></div>
+                    </div>
+                    <div class="office-card">
+                        <div class="office-num">02</div>
+                        <h3>Octane Gas</h3>
+                        <p>Energy Solutions</p>
+                        <div class="office-icon"><i class="fas fa-fire"></i></div>
+                    </div>
+                    <div class="office-card">
+                        <div class="office-num">03</div>
+                        <h3>Kidogo Innovations</h3>
+                        <p>Early Childhood Development</p>
+                        <div class="office-icon"><i class="fas fa-rocket"></i></div>
+                    </div>
+                    <div class="office-card">
+                        <div class="office-num">04</div>
+                        <h3>Leliso Limited</h3>
+                        <p>Business Services</p>
+                        <div class="office-icon"><i class="fas fa-briefcase"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-hint">
+            <span>← Scroll to explore →</span>
+        </div>
+    </section>
+
+    <!-- Section 4: Community / Why Us - Bento Grid -->
+    <section class="section community" id="community">
+        <div class="community-header">
+            <span class="section-num">04</span>
+            <h2 class="section-headline">More Than<br>a Marketplace</h2>
+        </div>
+        
+        <div class="bento-grid">
+            <div class="bento-item bento-large" style="background-image: url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200&q=80')">
+                <div class="bento-overlay"></div>
+                <div class="bento-content">
+                    <span class="bento-tag">Heritage</span>
+                    <h3>73 Years of<br>Community</h3>
+                    <p>Generations have walked these corridors</p>
+                </div>
+            </div>
+            
+            <div class="bento-item bento-stat">
+                <div class="stat-big">
+                    <span class="num">1952</span>
+                    <span class="label">Founded</span>
+                </div>
+            </div>
+            
+            <div class="bento-item bento-text">
+                <div class="bento-inner">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Safe & Secure</h4>
+                    <p>24/7 security for peace of mind</p>
+                </div>
+            </div>
+            
+            <div class="bento-item bento-text">
+                <div class="bento-inner">
+                    <i class="fas fa-parking"></i>
+                    <h4>Easy Parking</h4>
+                    <p>Ample space for all visitors</p>
+                </div>
+            </div>
+            
+            <div class="bento-item bento-img" style="background-image: url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80')">
+                <div class="bento-overlay"></div>
+            </div>
+            
+            <div class="bento-item bento-text accent">
+                <div class="bento-inner">
+                    <i class="fas fa-users"></i>
+                    <h4>Family Friendly</h4>
+                    <p>Serene atmosphere for all ages</p>
+                </div>
+            </div>
+            
+            <div class="bento-item bento-stat dark">
+                <div class="stat-big">
+                    <span class="num">40+</span>
+                    <span class="label">Tenants</span>
+                </div>
+            </div>
+            
+            <div class="bento-item bento-wide" style="background-image: url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80')">
+                <div class="bento-overlay"></div>
+                <div class="bento-content">
+                    <span class="bento-tag">Events</span>
+                    <h3>Weekend Markets & Community Gatherings</h3>
+                    <a href="mailto:samira.aman@adamsarcade.co.ke" class="bento-link">Inquire about events →</a>
+                </div>
+            </div>
+            
+            <div class="bento-item bento-text">
+                <div class="bento-inner">
+                    <i class="fas fa-map-pin"></i>
+                    <h4>Prime Location</h4>
+                    <p>Ngong Road, heart of Nairobi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Find Us -->
+    <section class="section find-us" id="find-us">
+        <div class="find-split">
+            <div class="find-left">
+                <span class="section-num">05</span>
+                <h2 class="section-headline">Find Us</h2>
+                
+                <div class="contact-blocks">
+                    <div class="contact-block">
+                        <div class="block-icon">📍</div>
+                        <div class="block-info">
+                            <h4>Location</h4>
+                            <p>Adams Arcade<br>Ngong Road<br>Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-block">
+                        <div class="block-icon">🕐</div>
+                        <div class="block-info">
+                            <h4>Hours</h4>
+                            <p>Mon — Sat: 8am — 8pm<br>Sunday: 9am — 6pm</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-block">
+                        <div class="block-icon">✉️</div>
+                        <div class="block-info">
+                            <h4>Contact</h4>
+                            <p><a href="mailto:info@adamsarcade.co.ke">info@adamsarcade.co.ke</a><br>
+                            <a href="mailto:samira.aman@adamsarcade.co.ke">samira.aman@adamsarcade.co.ke</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="https://maps.app.goo.gl/D5SoWRBBtHijofwPA" target="_blank" class="directions-btn">
+                    <span>Get Directions</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="find-right">
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8177456678397!2d36.78097631475389!3d-1.2994424990640073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10a6d8e5c08d%3A0x7f9f3b85f6f4f4f4!2sAdams%20Arcade!5e0!3m2!1sen!2ske!4v1640000000000!5m2!1sen!2ske"
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <span class="f-logo">AA</span>
+                <div class="f-text">
+                    <span class="f-name">Adams Arcade</span>
+                    <span class="f-year">Est. 1952</span>
+                </div>
+            </div>
+            
+            <div class="footer-tagline">
+                <p>Kenya's First Shopping Centre</p>
+                <p class="sub">Your stop for more than just shopping</p>
+            </div>
+            
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Adams Arcade. All rights reserved.</p>
+            <p class="heritage">73 Years of Heritage — Proudly Nairobi</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
